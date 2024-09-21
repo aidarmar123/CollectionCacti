@@ -45,6 +45,17 @@ namespace CollectionRareCacti.Pages
         {
             if (LVCacti.SelectedItem is Cacti cacti)
             {
+
+                foreach(var instraction in App.DB.Instraction.Where(x=>x.CactiId==cacti.Id).ToList())
+                {
+                    App.DB.Instraction.Remove(instraction);
+                }
+
+                foreach(var item in App.DB.ShowCacti.Where(x => x.CactiId == cacti.Id).ToList())
+                {
+                    App.DB.ShowCacti.Remove(item);
+                }
+
                 App.DB.Cacti.Remove(cacti);
                 App.DB.SaveChanges();
                 Refresh();
@@ -56,10 +67,7 @@ namespace CollectionRareCacti.Pages
             LVCacti.ItemsSource = App.DB.Cacti.Where(x => x.UserId == App.contextUser.Id).ToList();
         }
 
-        private void BAddShow_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+       
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {

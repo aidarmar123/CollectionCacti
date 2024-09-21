@@ -9,42 +9,54 @@
       Title="AddShowPage">
 
     <Grid>
-        <StackPanel>
-            <TextBlock Text="Адресс"/>
-            <TextBox Text="{Binding Adress}"/>
-            <TextBlock Text="Дата"/>
-            <DatePicker x:Name="DPDate"
-                        SelectedDate="{Binding Date}"/>
-            <StackPanel x:Name="SPCacti">
-                <TextBlock Text="Выберите кактус"/>
-                <ComboBox x:Name="CbCasti"
-                          DisplayMemberPath="Name"
-                          SelectedItem="{Binding Cacti}"/>
-                <TextBlock Text="Награда"/>
-                <TextBox Text="{Binding Achivments}"/>
-                 <TextBlock Text="Комментарий"/>
-                <TextBox Text="{Binding Comment}"/>
-                <Button x:Name="BAddCasti"
-                        Click="BAddCasti_Click"
-                        Content="Добавить кактус"/>
+
+        <ScrollViewer>
+            <StackPanel>
+                <TextBlock Text="Адресс"/>
+                <TextBox Text="{Binding Adress}"/>
+                <TextBlock Text="Дата"/>
+                <DatePicker x:Name="DPDate"
+                    SelectedDate="{Binding Date}"/>
+
+            
+            
+                
+                <StackPanel x:Name="SPCacti" >
+                    <TextBlock Text="Выберите кактус"/>
+                    <ComboBox x:Name="CbCasti"
+  DisplayMemberPath="Name"
+  SelectedItem="{Binding Cacti}"/>
+                    <TextBlock Text="Награда"/>
+                    <TextBox Text="{Binding Achivments}"/>
+                    <TextBlock Text="Комментарий"/>
+                    <TextBox Text="{Binding Comment}"/>
+                    <Button x:Name="BAddCasti"
+Click="BAddCasti_Click"
+Content="Добавить кактус"/>
+                </StackPanel>
+                <ListView Grid.Row="1"
+    ItemsSource="{Binding ShowCacti}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock Text="{Binding Cacti.Name}"/>
+                                <TextBlock Text="{Binding Achivments, StringFormat='Награда: {0}'}"/>
+                                <TextBlock Text="{Binding Comment, StringFormat='Комментарий: {0}'}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+           
+           
+
+                <Button x:Name="BSave"
+    Click="BSave_Click"
+    Content="Сохранить"/>
+                <Button x:Name="BBack"
+    Click="BBack_Click"
+    Content="Назад"/>
             </StackPanel>
-            <ListView ItemsSource="{Binding ShowCacti}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel>
-                            <TextBlock Text="{Binding Cacti.Name}"/>
-                            <TextBlock Text="{Binding Achivments.Name}"/>
-                            <TextBlock Text="{Binding Comment.Name}"/>
-                        </StackPanel>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-            <Button x:Name="BSave"
-        Click="BSave_Click"
-        Content="Сохранить"/>
-            <Button x:Name="BBack"
-        Click="BBack_Click"
-        Content="Назад"/>
-        </StackPanel>
+        </ScrollViewer>
+        
     </Grid>
 </Page>

@@ -9,40 +9,43 @@
       Title="AddEditCactiPage">
 
     <Grid>
-        <StackPanel>
-            <TextBlock Text="Вид"/>
-            <TextBox Text="{Binding Name}"/>
-            <TextBlock Text="Возраст"/>
-            <TextBox Text="{Binding Age}"/>
-            <TextBlock Text="Цена"/>
-            <TextBox Text="{Binding Price}"/>
-            <TextBlock Text="Происхождение"/>
-            <ComboBox x:Name="CbCountry"
-           DisplayMemberPath="Name"
-           SelectedItem="{Binding Country}"/>
-            <DataGrid IsReadOnly="True"
-                      AutoGenerateColumns="False"
-                ItemsSource="{Binding Instraction}">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Название"
-                                        Binding="{Binding Name}"/>
-                </DataGrid.Columns>
-            </DataGrid>
-            <StackPanel x:Name="SpInstarction">
-                <TextBlock Text="Пункт инструкции"/>
+        <ScrollViewer>
+            <StackPanel>
+                <TextBlock Text="Вид"/>
                 <TextBox Text="{Binding Name}"/>
-                <Button x:Name="BAddInstaction"
-                        Click="BAddInstaction_Click"
-                        Content="Добавить пункт"/>
+                <TextBlock Text="Возраст"/>
+                <TextBox Text="{Binding Age}"/>
+                <TextBlock Text="Цена"/>
+                <TextBox Text="{Binding Price}"/>
+                <TextBlock Text="Происхождение"/>
+                <ComboBox x:Name="CbCountry"
+   DisplayMemberPath="Name"
+   SelectedItem="{Binding Country}"/>
+                <DataGrid IsReadOnly="True"
+              AutoGenerateColumns="False"
+        ItemsSource="{Binding Instraction}">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Название"
+                                Binding="{Binding Name}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <StackPanel x:Name="SpInstarction">
+                    <TextBlock Text="Пункт инструкции"/>
+                    <TextBox Text="{Binding Name}"/>
+                    <Button x:Name="BAddInstaction"
+                Click="BAddInstaction_Click"
+                Content="Добавить пункт"/>
+                </StackPanel>
+
+                <Button x:Name="BSave"
+            Click="BSave_Click"
+            Content="Сохранить"/>
+                <Button x:Name="BBack"
+            Click="BBack_Click"
+            Content="Назад"/>
+
             </StackPanel>
-           
-            <Button x:Name="BSave"
-                    Click="BSave_Click"
-                    Content="Сохранить"/>
-            <Button x:Name="BBack"
-                    Click="BBack_Click"
-                    Content="Назад"/>
-            
-        </StackPanel>
+        </ScrollViewer>
+        
     </Grid>
 </Page>

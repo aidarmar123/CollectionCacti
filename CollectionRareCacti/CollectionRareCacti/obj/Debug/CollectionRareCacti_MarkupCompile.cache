@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Aidar\source\repos\CollectionRareCacti\CollectionRareCacti\obj\Debug\
+C:\Users\Aidar\source\repos\CollectionCacti\CollectionRareCacti\CollectionRareCacti\obj\Debug\
 CollectionRareCacti
 none
 false
 DEBUG;TRACE
-C:\Users\Aidar\source\repos\CollectionRareCacti\CollectionRareCacti\App.xaml
-91866253319
+C:\Users\Aidar\source\repos\CollectionCacti\CollectionRareCacti\CollectionRareCacti\App.xaml
+9-1565672015
 21304076067
-27233979850
-18-603527615
-MainWindow.xaml;Pages\AddEditCactiPage.xaml;Pages\AddShowPage.xaml;Pages\AllCactiPage.xaml;Pages\AllShowPage.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\ProfilePage.xaml;Pages\RegistrationPage.xaml;
+271297654356
+181890950209
+MainWindow.xaml;Pages\AddEditCactiPage.xaml;Pages\AddShowPage.xaml;Pages\AllCactiPage.xaml;Pages\AllShowPage.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\RegistrationPage.xaml;Windows\ProfileWindow.xaml;
 
 False
 

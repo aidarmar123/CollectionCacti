@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CollectionRareCacti.Windows;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,7 +31,7 @@ namespace CollectionRareCacti.Pages
         }
         private void SpUser_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            CollectionFrame.Navigate(new ProfilePage());
+            new ProfileWindow().ShowDialog();
         }
 
         private void BExit_Click(object sender, RoutedEventArgs e)

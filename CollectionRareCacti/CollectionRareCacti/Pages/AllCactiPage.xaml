@@ -29,8 +29,8 @@
                                         <StackPanel>
                                             <TextBlock Text="{Binding Show.Adress}"/>
                                             <TextBlock Text="{Binding Show.Date, StringFormat='dd.MM.yyyy'}"/>
-                                            <TextBlock Text="{Binding Comment}"/>
-                                            <TextBlock Text="{Binding Achivments}"/>
+                                            <TextBlock Text="{Binding Comment, StringFormat='Комментарий: {0}'}"/>
+                                            <TextBlock Text="{Binding Achivments, StringFormat='Награда: {0}'}"/>
                                             
                                         </StackPanel>
                                     </DataTemplate>
@@ -52,6 +52,7 @@
             </ListView.ItemTemplate>
         </ListView>
         <StackPanel Grid.Row="1"
+                    HorizontalAlignment="Center"
                     Orientation="Horizontal">
             <Button x:Name="BAddCacti"
                     Click="BAddCacti_Click"
@@ -65,10 +66,7 @@
                     Click="BRemoveCacti_Click"
                     Content="Удалить кактус"/>
             
-             <Button x:Name="BAddShow"
-                    Click="BAddShow_Click"
-                    Content="Добавить выставку"/>
-            
+       
             
         </StackPanel>
     </Grid>

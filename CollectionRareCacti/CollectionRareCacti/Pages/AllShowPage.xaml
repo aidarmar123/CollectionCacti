@@ -26,9 +26,9 @@
                                     <DataTemplate>
                                         <StackPanel>
                                             <TextBlock Text="{Binding Cacti.Name}"/>
-                                            <TextBlock Text="{Binding Cacti.Price}"/>
-                                            <TextBlock Text="{Binding Achivments}"/>
-                                            <TextBlock Text="{Binding Comment}"/>
+                                            <TextBlock Text="{Binding Cacti.Price, StringFormat='Цена: {0} RUB'}"/>
+                                            <TextBlock Text="{Binding Achivments, StringFormat='Награда: {0}'}"/>
+                                            <TextBlock Text="{Binding Comment, StringFormat='Комментарий: {0}'}"/>
                                         </StackPanel>
                                     </DataTemplate>
                                 </ListView.ItemTemplate>
@@ -41,6 +41,7 @@
             </ListView.ItemTemplate>
         </ListView>
         <StackPanel Grid.Row="1"
+                    HorizontalAlignment="Center"
                 Orientation="Horizontal">
            
            

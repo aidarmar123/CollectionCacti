@@ -36,10 +36,15 @@ namespace CollectionRareCacti.Pages
         {
             if (LVShow.SelectedItem is Show show)
             {
-
+                foreach (var item in App.DB.ShowCacti.Where(x=>x.ShowId==show.Id).ToList())
+                {
+                    App.DB.ShowCacti.Remove(item);
+                }
+                App.DB.Show.Remove(show);
                 App.DB.SaveChanges();
                 Refresh();
             }
+
         }
 
         private void BEditShow_Click(object sender, RoutedEventArgs e)

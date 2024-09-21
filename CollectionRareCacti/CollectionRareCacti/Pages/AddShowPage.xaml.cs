@@ -27,11 +27,15 @@ namespace CollectionRareCacti.Pages
         public AddShowPage(Models.Show show)
         {
             InitializeComponent();
-            DPDate.DisplayDateStart = DateTime.Now;
             CbCasti.ItemsSource = App.DB.Cacti.ToList();
             contextShow = show;
+            if (contextShow.Date == DateTime.MinValue)
+                contextShow.Date = DateTime.Now;
             DataContext = contextShow;
             SPCacti.DataContext = contextShowCasti;
+            
+
+
         }
 
         private void BAddCasti_Click(object sender, RoutedEventArgs e)
