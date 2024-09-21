@@ -1,0 +1,62 @@
+﻿<Page x:Class="CollectionRareCacti.Pages.AllShowPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CollectionRareCacti.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AllShowPage"
+      Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <ListView x:Name="LVShow">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Adress}"/>
+                        <TextBlock Text="{Binding Date, StringFormat='dd.MM.yyyy'}"/>
+                        <Expander Header="Кактусы">
+                            <ListView ItemsSource="{Binding ShowCacti}">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel>
+                                            <TextBlock Text="{Binding Cacti.Name}"/>
+                                            <TextBlock Text="{Binding Cacti.Price}"/>
+                                            <TextBlock Text="{Binding Achivments}"/>
+                                            <TextBlock Text="{Binding Comment}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </Expander>
+                        
+                      
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel Grid.Row="1"
+                Orientation="Horizontal">
+           
+           
+
+            <Button x:Name="BAddShow"
+                Click="BAddShow_Click"
+                Content="Добавить выставку"/>
+            <Button x:Name="BEditShow"
+     Click="BEditShow_Click"
+     Content="Изменить выставку"/>
+
+            <Button x:Name="BRemoveShow"
+     Click="BRemoveShow_Click"
+     Content="Удалить выставку"/>
+
+
+        </StackPanel>
+    </Grid>
+</Page>

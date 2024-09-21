@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CollectionCactiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cacti">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Age" Type="Int32" Nullable="false" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <Property Name="CountyId" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Country" Relationship="Self.FK_Cacti_Country" FromRole="Cacti" ToRole="Country" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Cacti_User" FromRole="Cacti" ToRole="User" />
+    <NavigationProperty Name="Instraction" Relationship="Self.FK_Instraction_Cacti" FromRole="Cacti" ToRole="Instraction" />
+    <NavigationProperty Name="ShowCacti" Relationship="Self.FK_ShowCacti_Cacti" FromRole="Cacti" ToRole="ShowCacti" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Cacti" Relationship="Self.FK_Cacti_Country" FromRole="Country" ToRole="Cacti" />
+  </EntityType>
+  <EntityType Name="Instraction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="400" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CactiId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Cacti" Relationship="Self.FK_Instraction_Cacti" FromRole="Instraction" ToRole="Cacti" />
+  </EntityType>
+  <EntityType Name="Show">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Adress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ShowCacti" Relationship="Self.FK_ShowCacti_Show" FromRole="Show" ToRole="ShowCacti" />
+  </EntityType>
+  <EntityType Name="ShowCacti">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ShowId" Type="Int32" Nullable="false" />
+    <Property Name="CactiId" Type="Int32" Nullable="false" />
+    <Property Name="Achivments" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Comment" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Cacti" Relationship="Self.FK_ShowCacti_Cacti" FromRole="ShowCacti" ToRole="Cacti" />
+    <NavigationProperty Name="Show" Relationship="Self.FK_ShowCacti_Show" FromRole="ShowCacti" ToRole="Show" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Cacti" Relationship="Self.FK_Cacti_User" FromRole="User" ToRole="Cacti" />
+  </EntityType>
+  <Association Name="FK_Cacti_Country">
+    <End Role="Country" Type="Self.Country" Multiplicity="1" />
+    <End Role="Cacti" Type="Self.Cacti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Cacti">
+        <PropertyRef Name="CountyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cacti_User">
+    <End Role="User" Type="Self.User" Multiplicity="1" />
+    <End Role="Cacti" Type="Self.Cacti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Cacti">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Instraction_Cacti">
+    <End Role="Cacti" Type="Self.Cacti" Multiplicity="1" />
+    <End Role="Instraction" Type="Self.Instraction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cacti">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Instraction">
+        <PropertyRef Name="CactiId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShowCacti_Cacti">
+    <End Role="Cacti" Type="Self.Cacti" Multiplicity="1" />
+    <End Role="ShowCacti" Type="Self.ShowCacti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cacti">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ShowCacti">
+        <PropertyRef Name="CactiId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShowCacti_Show">
+    <End Role="Show" Type="Self.Show" Multiplicity="1" />
+    <End Role="ShowCacti" Type="Self.ShowCacti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Show">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ShowCacti">
+        <PropertyRef Name="ShowId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CollectionCactiEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cacti" EntityType="Self.Cacti" />
+    <EntitySet Name="Country" EntityType="Self.Country" />
+    <EntitySet Name="Instraction" EntityType="Self.Instraction" />
+    <EntitySet Name="Show" EntityType="Self.Show" />
+    <EntitySet Name="ShowCacti" EntityType="Self.ShowCacti" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <AssociationSet Name="FK_Cacti_Country" Association="Self.FK_Cacti_Country">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="Cacti" EntitySet="Cacti" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cacti_User" Association="Self.FK_Cacti_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Cacti" EntitySet="Cacti" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Instraction_Cacti" Association="Self.FK_Instraction_Cacti">
+      <End Role="Cacti" EntitySet="Cacti" />
+      <End Role="Instraction" EntitySet="Instraction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShowCacti_Cacti" Association="Self.FK_ShowCacti_Cacti">
+      <End Role="Cacti" EntitySet="Cacti" />
+      <End Role="ShowCacti" EntitySet="ShowCacti" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShowCacti_Show" Association="Self.FK_ShowCacti_Show">
+      <End Role="Show" EntitySet="Show" />
+      <End Role="ShowCacti" EntitySet="ShowCacti" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

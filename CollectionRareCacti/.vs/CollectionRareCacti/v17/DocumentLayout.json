@@ -1,0 +1,468 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\addshowpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\addshowpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\allshowpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\allshowpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\addshowpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\addshowpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\allshowpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\allshowpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\models\\metadata\\metashow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\models\\metadata\\metashow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\models\\metadata\\metacacti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\models\\metadata\\metacacti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\models\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\models\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\addeditcactipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\addeditcactipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\allcactipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\allcactipage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\models\\modeldata.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\models\\modeldata.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\allcactipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\allcactipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\addeditcactipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\addeditcactipage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\service\\validationclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\service\\validationclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\models\\metadata\\metauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\models\\metadata\\metauser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|c:\\users\\aidar\\source\\repos\\collectionrarecacti\\collectionrarecacti\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F407EBA-EB4D-489B-AE8B-EA8CC36A8ABB}|CollectionRareCacti\\CollectionRareCacti.csproj|solutionrelative:collectionrarecacti\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pages\\AddShowPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AddShowPage.xaml.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\AddShowPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AddShowPage.xaml.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\AddShowPage.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwCoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:09:04.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddShowPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AddShowPage.xaml",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\AddShowPage.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AddShowPage.xaml",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\AddShowPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T11:08:30.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AllShowPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AllShowPage.xaml",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\AllShowPage.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AllShowPage.xaml",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\AllShowPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T11:13:05.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pages\\AllShowPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AllShowPage.xaml.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\AllShowPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AllShowPage.xaml.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\AllShowPage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T11:40:25.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\MainWindow.xaml",
+              "RelativeToolTip": "CollectionRareCacti\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T07:50:12.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\App.xaml.cs",
+              "RelativeToolTip": "CollectionRareCacti\\App.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:23:03.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\RegistrationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\RegistrationPage.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAxwCsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:29:38.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:40:14.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADgvxoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:35:01.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\ProfilePage.xaml",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\ProfilePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T09:38:22.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T09:29:13.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MetaShow.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Models\\MetaData\\MetaShow.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Models\\MetaData\\MetaShow.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Models\\MetaData\\MetaShow.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Models\\MetaData\\MetaShow.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:15:54.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MetaCacti.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Models\\MetaData\\MetaCacti.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Models\\MetaData\\MetaCacti.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Models\\MetaData\\MetaCacti.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Models\\MetaData\\MetaCacti.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:23:30.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Show.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Models\\Show.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Models\\Show.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Models\\Show.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Models\\Show.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T12:15:58.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ModelData.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Models\\ModelData.edmx",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Models\\ModelData.edmx",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Models\\ModelData.edmx [Diagram1]",
+              "RelativeToolTip": "CollectionRareCacti\\Models\\ModelData.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-09-21T12:04:31.209Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddEditCactiPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AddEditCactiPage.xaml",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\AddEditCactiPage.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AddEditCactiPage.xaml",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\AddEditCactiPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T10:14:58.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AllCactiPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AllCactiPage.xaml",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\AllCactiPage.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AllCactiPage.xaml",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\AllCactiPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T09:06:44.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\App.config",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\App.config",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\App.config",
+              "RelativeToolTip": "CollectionRareCacti\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-21T09:15:24.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Pages\\AddEditCactiPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AddEditCactiPage.xaml.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\AddEditCactiPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AddEditCactiPage.xaml.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\AddEditCactiPage.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:18:30.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AllCactiPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AllCactiPage.xaml.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\AllCactiPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\AllCactiPage.xaml.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\AllCactiPage.xaml.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:06:06.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\LoginPage.xaml.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\LoginPage.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA7wDUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:26:33.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ValidationClass.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Service\\ValidationClass.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Service\\ValidationClass.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Service\\ValidationClass.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Service\\ValidationClass.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:26:06.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\RegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\RegistrationPage.xaml",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\RegistrationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T09:25:04.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MetaUser.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Models\\MetaData\\MetaUser.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Models\\MetaData\\MetaUser.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Models\\MetaData\\MetaUser.cs",
+              "RelativeToolTip": "CollectionRareCacti\\Models\\MetaData\\MetaUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:21:51.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CollectionRareCacti\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T07:50:02.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "CollectionRareCacti\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T09:24:41.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\App.xaml",
+              "RelativeDocumentMoniker": "CollectionRareCacti\\App.xaml",
+              "ToolTip": "C:\\Users\\Aidar\\source\\repos\\CollectionRareCacti\\CollectionRareCacti\\App.xaml",
+              "RelativeToolTip": "CollectionRareCacti\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-21T09:27:39.783Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
